@@ -1,0 +1,129 @@
+body{
+  margin:0;
+  padding: 0;
+}
+.container{
+display: flex;
+flex-wrap: nowrap;
+flex-basis: 100%;
+margin: 1% 2% 1% 10%;
+}
+.generalinfo{
+ background-color: #C3B091;
+ flex-direction: column;
+ flex-basis:30%;
+ margin:0;
+ padding:0;
+ text-align: center;
+ font-family: 'Cairo', serif;
+ 
+}
+img{
+  border-radius: 100%;
+  border-color: #D2691E;
+  border-style: solid;
+  margin-top: 7%;
+
+}
+h3{
+  color:	#D2691E;
+  text-align: center;
+}
+.education h3,a{
+  color:	#D2691E;
+  text-align: left;
+}
+
+.fas {
+  padding-right: 6px;
+}
+.phone{
+  padding-left: 5px;
+}
+ul{
+  list-style: none;
+  padding:0;
+}
+.secondpart{
+  flex-direction: column;
+  padding: 0;
+  flex-basis:60%;
+  text-align: justify;
+  font-family: 'Montserrat', serif;
+  background-color: #F5F5DC;
+}
+.name{
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin:-1px auto;
+  padding-top: 0;
+  text-align: center;
+}
+.education{
+margin:50px 0px 10px 50px;
+width: 70%;
+text-align: justify;
+
+
+}
+h6{
+  padding-bottom: 5%;
+}
+@media screen and (max-width: 768px){
+  .container{
+    /* display: flex; */
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    margin: 0;
+    size :100%;
+    }
+    .education{
+      margin:0;
+      flex-basis: 100%;
+      width: 100%;
+      text-align: left;
+      font: 14px;
+      margin-left: 2px;
+      
+   
+}
+.generalinfo{
+  background-color: #C3B091;
+  flex-direction: column;
+  flex-basis:10%;
+  width: 30%;
+  margin:0;
+  padding:0;
+  text-align: center;
+  font-family: 'Cairo', serif;
+  font:10px;
+}
+.secondpart{
+  flex-direction: column;
+  padding: 0;
+  flex-basis:70%;
+  text-align: justify;
+  font-family: 'Montserrat', serif;
+  background-color: #F5F5DC;
+  font-size: 12px;
+}
+img{
+  border-radius: 100%;
+  border-color: #D2691E;
+  border-style: solid;
+  margin-top: 7%;
+  size: 5%;
+
+}
+.generalinfo{
+  background-color: #C3B091;
+  flex-direction: column;
+  flex-basis:30%;
+  margin:0;
+  padding:0;
+  text-align: center;
+  font-family: 'Cairo', serif;
+  font: 12px;
+ }
+}
