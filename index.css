@@ -97,14 +97,14 @@ h6{
 .generalinfo{
   background-color: #525662;
   flex-direction: column;
-  flex-basis:10%;
+  flex-basis: 10%;
   width: 30%;
   margin:10;
   padding:0;
   text-align: center;
   font-family: 'Cairo', serif;
-  font:10px;
-  font-size:5px;
+  font: 5px;
+  font-size: 5px;
 }
 .secondpart{
   flex-direction: column;
@@ -135,11 +135,12 @@ img{
   color: white;
   font: 12px;
  }
+  }
 
  @media print {
   .page-break {
   page-break-before: always;
   }
   }
-}
-}
+
+
