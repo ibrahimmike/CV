@@ -80,8 +80,9 @@ h6{
     /* display: flex; */
     flex-wrap: nowrap;
     flex-basis: 100%;
-    margin: 0;
-    size :100%;
+    margin: 1;
+    font:10px;
+    size :80%;
     }
     .education{
       margin:0;
